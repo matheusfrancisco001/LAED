@@ -1,0 +1,9 @@
+"A lista está completamente ordenada?"
+    Sim. Ao ordenar os primeiros 2n/3, os maiores elementos dessa porção são empurrados para o final dela.
+    Ao ordenar os últimos 2n/3, os maiores elementos de toda a lista são levados para o terço final
+    ficando garantidamente em suas posições definitivas. A terceira e última passagem ordena novamente
+    os primeiros 2n/3, o que arruma o restante dos elementos menores e finaliza a ordenação completa.
+"Tempo de execução":
+    O(n^2). O algoritmo executa o Bubble Sort três vezes em pedaços de tamanho proporcional a n.
+    Como a complexidade do Bubble Sort é quadrática, executar O((2n/3)^2) três vezes não
+    altera a classe de complexidade do pior caso, mantendo o tempo em O(n^2).

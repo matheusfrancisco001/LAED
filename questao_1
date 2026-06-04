@@ -1,0 +1,10 @@
+-Melhor caso: O(n):
+    Isso ocorre quando o procedimento de Partição divide a
+    lista perfeitamente ao meio e os elementos de ambas as metades já estão ordenados.
+    Se utilizarmos uma versão otimizada do Bubble Sort, ele fará apenas uma passagem O(n) em
+     cada metade sem realizar trocas, resultando em um tempo linear.
+-Pior caso: O(n^2):
+    Isso ocorre quando a Partição é extremamente desbalanceada (por exemplo, separando 1
+    elemento de um lado e n-1 do outro) e a lista está em ordem inversa.
+    O Bubble Sort terá que realizar o número máximo de comparações e trocas
+    na parte maior,o que custa um tempo quadrático.
